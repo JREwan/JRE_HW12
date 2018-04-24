@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wind vs Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+</head>
+
+<body>
+<!-- Nav from class -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- Right side -->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <!-- Plots dropdown -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="TempVsLat.html">Max Temperature</a></li>
+              <li><a href="HumidityVsLat.html">Humidity</a></li>
+              <li><a href="CloudVsLat.html">Cloudiness</a></li>
+              <li><a href="WindVsLat.html">Wind</a></li>
+              <!-- <li role="separator" class="divider"></li> -->
+              <!-- <li><a href="#">Separated link</a></li> -->
+            </ul>
+          </li>
+          <li><a href="Comparison.html">Comparison</a></li>
+          <li><a href="DataPage.html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+<!-- Nav from class -->
+
+
+<div class="container">
+    <div class="col-md-8">
+        <div class="mainbox">
+            <h1>Wind vs. Latitude</h1></br>
+            <p>Wind speed compared to the latitiude of a chosen city.</p></br>
+            <img src="WindVsLat.png" alt="Wind vs. Latitude"></br>  
+            <p>After extensive study, no significant City .  There was very little range in wind speed.</p>
+            <p>Other factors that could impact wind speed include geography.  For example, a location on the great plains would see winds different from a mountain valley location.</p>
+        </div>
+     </div>
+     <!-- mini viz -->
+     <h3 class="text-center">Visualizations</h3>
+     <div class="row">
+         <div class="col-sm-2">
+             <div class="thumbnail">
+                 <img src="CloudVsLat.png" alt="Cloud vs Lattitude">
+             </div>
+         </div>
+         <div class="col-sm-2">
+            <div class="thumbnail">
+                <img src="WindVsLat.png" alt="Wind vs Lattitude">      
+            </div>
+         </div>
+         <div class="col-sm-2">
+            <div class="thumbnail">
+                <img src="TempVsLat.png" alt="Temperature vs Lattitude">      
+            </div>
+         </div>
+         <div class="col-sm-2">
+            <div class="thumbnail">
+                <img src="HumidityVsLat.png" alt="Humidity vs Lattitude">      
+            </div>
+         </div>
+     </div>    
+     <!-- end of mini viz -->
+  </div> 
+</div>  
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
